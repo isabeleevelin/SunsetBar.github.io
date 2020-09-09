@@ -15,6 +15,13 @@ import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 import { AcessoPrincipalComponent } from './pages/acesso-principal/acesso-principal.component';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { CardapioComponent } from './pages/cardapio/cardapio.component';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatStepperModule} from '@angular/material/stepper';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+
 
 
 
@@ -25,7 +32,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MenuComponent,
     HomeComponent,
     LoginComponent,
-    AcessoPrincipalComponent
+    AcessoPrincipalComponent,
+    CardapioComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +46,12 @@ import {MatGridListModule} from '@angular/material/grid-list';
     ReactiveFormsModule,
     MatInputModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    MatExpansionModule,
+    MatSnackBarModule,
+    MatTabsModule,
+    MatStepperModule,
+    MatCheckboxModule
     
   ],
   providers: [],

@@ -1,0 +1,201 @@
+.panel {
+    width: auto;
+    height: 100%;
+    position: relative;
+    background-color: black;
+    position: relative;
+}
+
+mat-horizontal-stepper {
+    background: url('src/assets/img/fundoBar2.jpg')no-repeat center;
+    background-size: cover;
+}
+
+ng-template {
+    color: white;
+}
+
+.cardapio {
+    width: 40%;
+    height: max-content;
+    float: left;
+}
+
+.cardapioPetisco {
+    width: 60%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardapioPetisco h1 {
+    font-size: 20pt;
+    font-display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+mat-card-header {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonPetisco {
+    width: 100%;
+    max-height: 30%;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    margin-top: 2%;
+}
+
+img {
+    width: 600px;
+    height: 700px;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+mat-card-header {
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: flex;
+}
+
+.imgCerveja {
+    float: right;
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    padding-top: 20%;
+}
+
+.cardapio2 {
+    float: right;
+    width: 40%;
+    height: auto;
+}
+
+.card ul li {
+    font-size: 15pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-display: block;
+    list-style: none;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+li {
+    display: block;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li:nth-child(odd) {
+    /* este css será aplicato nos LI impares (1, 3, 5... ).         */
+    clear: both;
+    /* forçamos a quebra de linha por segurança...                  */
+    float: left;
+    /* ... e o alinhamos à esquerda.                                */
+    width: 50%;
+    /* Aplicamos 50% na esquerda, os da direita "herdam" o resto.   */
+}
+
+li:nth-child(4n+2),
+
+/* aqui pulamos de 4 em 4 itens começando do 2 ( 2, 6, ...).    */
+
+li:nth-child(4n+3) {}
+
+.card {
+    display: center;
+    margin-top: 20px;
+}
+
+
+/*
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.cardapio li {
+    list-style: none;
+}
+
+.cardapio h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.cardapio {
+    width: 69%;
+    height: 100%;
+    float: right;
+    color: white;
+    font-family: 'Gabriola', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+.fundoBebida hr {
+    color: black;
+    width: 70%;
+}
+
+.cerveja {
+    border-top: 2px;
+    border-bottom: 2px;
+    border-left: 2px;
+    border: 2px solid white;
+}
+
+.fundoBebida {
+    background: url('src/assets/img/fundoBar2.jpg') no-repeat center;
+    background-size: cover;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bebidas {
+    padding-top: 5%;
+    padding-left: 5%;
+    float: left;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+
+.comanda {
+    width: 45%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+.example-tab-icon {
+    margin-right: 8px;
+}
+*/
